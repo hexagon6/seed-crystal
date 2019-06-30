@@ -7,6 +7,7 @@
     border-bottom: 1px solid rgba(255, 62, 0, 0.1);
     font-weight: 300;
     padding: 0 1em;
+    background-color: rgba(255, 255, 255, 0.02);
   }
 
   ul {
@@ -29,16 +30,19 @@
   .selected {
     position: relative;
     display: inline-block;
+    background-color: none;
   }
 
   .selected::after {
     position: absolute;
     content: "";
     width: calc(100% - 1em);
-    height: 2px;
-    background-color: rgb(255, 62, 0);
+    height: 5px;
+    /* background-color: rgb(255, 62, 0); */
+    background-color: #0cbaba;
+    background-image: linear-gradient(0deg, #0cbaba 0%, #380036 74%);
     display: block;
-    bottom: -1px;
+    bottom: 0px;
   }
 
   a {
