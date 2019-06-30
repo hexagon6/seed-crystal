@@ -68,8 +68,5 @@
         blog
       </a>
     </li>
-    <li>
-      <a class={segment === 'about' ? 'selected' : ''} href="about">about</a>
-    </li>
   </ul>
 </nav>
