@@ -12,7 +12,7 @@ const posts = [
     title: "What is this?",
     slug: "what-is-this",
     html: `
-			<p>This is a blog page about seed crystals</p>
+			<p>This is a blog page about seed crystals and other experiments with svg</p>
 		`
   }
 ];
