@@ -63,7 +63,7 @@
       <circle r={1 / 2} cx={radius * Math.cos(h)} cy={radius * Math.sin(h)} />
       {#if shownums}
         <text x={0.8 * radius * Math.cos(h)} y={0.8 * radius * Math.sin(h)}>
-           {i}
+          {i}
         </text>
       {/if}
     {/each}
@@ -73,6 +73,7 @@
         y1={radius * Math.sin(positions[p0])}
         x2={radius * Math.cos(positions[p1])}
         y2={radius * Math.sin(positions[p1])}
+        stroke-linecap="round"
         stroke="rgba(255, 255, 0, 0.9)"
         stroke-width={10 / number} />
     {/each}
