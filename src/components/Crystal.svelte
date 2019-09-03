@@ -27,7 +27,7 @@
   }
   svg {
     width: 100%;
-    height: calc(100% - 5em);
+    height: 100%;
   }
   /* text {
     font-size: 3px;

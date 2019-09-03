@@ -10,7 +10,7 @@
     max-width: 56em;
     background-color: black;
     color: white;
-    padding: 2em;
+    padding: 0 1em;
     margin: 0 auto;
     box-sizing: border-box;
   }

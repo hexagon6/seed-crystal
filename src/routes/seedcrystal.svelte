@@ -1,23 +1,12 @@
 <script>
   import Crystal from "../components/Crystal.svelte";
+  import Figure from "../components/Figure.svelte";
 </script>
-
-<style>
-  figure {
-    text-align: center;
-    margin: 0 auto;
-    height: 75vh;
-  }
-
-  figure {
-    margin: 0 0 1em 0;
-  }
-</style>
 
 <svelte:head>
   <title>Seed Crystal</title>
 </svelte:head>
 
-<figure>
+<Figure>
   <Crystal />
-</figure>
+</Figure>
