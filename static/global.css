@@ -37,3 +37,7 @@ code {
 		font-size: 16px;
 	}
 }
+
+#sapper {
+	height: 100vh;
+}

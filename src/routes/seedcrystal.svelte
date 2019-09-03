@@ -6,6 +6,7 @@
   figure {
     text-align: center;
     margin: 0 auto;
+    height: 75vh;
   }
 
   figure {
