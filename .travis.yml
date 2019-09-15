@@ -8,22 +8,22 @@ env:
   global:
     - BUILD_TIMEOUT=10000
     - BASE_URL=seed-crystal
-    - CYPRESS_BASE_URL=http://localhost:3030/$BASE_URL
+    #- CYPRESS_BASE_URL=http://localhost:3030/$BASE_URL
 before_install:
   - npm i -g npm@latest
 install:
   - npm ci
 jobs:
   include:
-    - stage: test
-      script:
-        - npm i cypress
-        - npm run dev &
-        - npm run cy:record
-        - kill %1
-    - # unit tests
-      script:
-        - npm run cov > coverage.lcov && codecov
+    #- stage: test
+      #script:
+        #- npm i cypress
+        #- npm run dev &
+        #- npm run cy:record
+        #- kill %1
+    #- # unit tests
+      #script:
+      #  - npm run cov > coverage.lcov && codecov
     - stage: build & deploy
       before_deploy:
         - npm run export -- --basepath $BASE_URL
